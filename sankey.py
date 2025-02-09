@@ -84,7 +84,7 @@ fig = go.Figure(data=[go.Sankey(
 fig.update_layout(
     title_text="Sankey Diagram",
     font=dict(size=12, family="Arial"),
-    title_font=dict(size=16, family="Arial", color="black"),
+    title_font=dict(size=16, family="Arial", color="black", weight="bold"),
     plot_bgcolor='white'
 )
 
